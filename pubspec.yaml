@@ -1,0 +1,29 @@
+name: cookies_apps
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - assets/
+fonts:
+  - family: Varela
+    fonts:
+      - asset: assets/VarelaRound-Regular.ttf
